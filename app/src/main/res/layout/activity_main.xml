@@ -29,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_below="@id/editTextPassword"
         android:layout_height="wrap_content"
+        android:onClick="onButtonSignIn"
         android:text="@string/sign_in"/>
 
     <TextView
@@ -45,6 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:onClick="onButtonSignUp"
         android:text="@string/sign_up"/>
 
     <TextView
